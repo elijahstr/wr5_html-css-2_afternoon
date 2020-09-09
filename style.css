@@ -1,0 +1,82 @@
+header {
+    width: 95vw;
+    height: 10vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-image{
+    height: 50px;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+}
+
+.nav-links {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#play-button {
+    width: 25px;
+}
+
+.div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#background {
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+}
+
+.centered{
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+
+#career {
+    color: white;
+    width: 100%;
+    top: 200px;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+#campus {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+    font-size: 2em;
+    
+}
+
+#video {
+    color: blue;
+    width: 100%;
+    top: 1000px;
+    font-size: 2em;
+    font-weight: bold;
+
+}
